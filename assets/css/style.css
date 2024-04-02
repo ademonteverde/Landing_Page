@@ -61,6 +61,8 @@ figure {
 img {
   display: block;
   margin: 20px auto;
+  width: 45%;
+  max-width: 450px;
 }
 
 section {
@@ -89,6 +91,8 @@ textarea {
   box-sizing: border-box;
   width: 300px;
   border: 1px solid #4F4846;
+  margin: 5px;
+  padding: 2px;
 }
 
 textarea {
@@ -110,4 +114,12 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+.message-input {
+  height: 100px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  resize: none; /* Remove vertical resizing */
+  width: 300px; /* Adjust width as needed */
 }
